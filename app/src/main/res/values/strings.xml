@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RegistrationAnimation</string>
+    <string name="transition_login" translatable="false">transition_login</string>
+    <string name="if_you_wanna_login_can_just_press_the_button">If you wanna login, can just press the button.</string>
+    <string name="login">LOGIN</string>
+    <dimen name="card_radius">2dp</dimen>
+</resources>
