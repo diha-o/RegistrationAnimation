@@ -24,7 +24,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
-
+        showFab();
     }
     @OnClick(R.id.fab_main_activity)
     protected void fabOnClick(){
@@ -43,7 +43,7 @@ public class MainActivity extends Activity {
         switch (requestCode) {
             case 124:
                 if (resultCode == RESULT_OK) {
-                    showFab();
+                    showFab();// just for onCreadte
                 }
                 break;
         }

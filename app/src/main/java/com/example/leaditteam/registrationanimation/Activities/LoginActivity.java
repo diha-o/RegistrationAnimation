@@ -34,8 +34,7 @@ public class LoginActivity extends Activity {
     @Override
     protected void onNewIntent(Intent intent) {
         super.onNewIntent(intent);
-       // setIntent(intent);
-        setResult(Activity.RESULT_OK);
+        setIntent(intent);
     }
     public void dismiss(View view) {
         setResult(Activity.RESULT_CANCELED);
